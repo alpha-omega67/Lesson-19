@@ -37,3 +37,11 @@ const findUser = users.find((el) => {
 });
 
 console.log(findUser);
+
+const numbers2 = [10, 20, 40, 100, 150];
+
+const isHave = numbers2.some((el) => {
+  return el === 150;
+});
+
+console.log(isHave);
