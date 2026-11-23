@@ -68,3 +68,12 @@ const result4 = fruits.reduce((acc, fruit, index) => {
 }, {});
 
 console.log(result4);
+
+const upNumber = numbers3.reduce((acc, number) => {
+  if (number > acc) {
+    return number;
+  }
+  return acc;
+}, numbers3[0]);
+
+console.log(upNumber);
