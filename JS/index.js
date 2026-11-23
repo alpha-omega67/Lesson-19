@@ -31,3 +31,9 @@ const workings = users.filter((el) => {
 });
 
 console.log(workings);
+
+const findUser = users.find((el) => {
+  return el.name === "Elman";
+});
+
+console.log(findUser);
