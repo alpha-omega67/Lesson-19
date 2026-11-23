@@ -25,3 +25,9 @@ const names = users.map((el) => {
 });
 
 console.log(names);
+
+const workings = users.filter((el) => {
+  return el.age > 20;
+});
+
+console.log(workings);
