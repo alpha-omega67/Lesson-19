@@ -45,3 +45,9 @@ const isHave = numbers2.some((el) => {
 });
 
 console.log(isHave);
+
+const altuxi = users.every((el) => {
+  return users.age >= 18;
+});
+
+console.log(altuxi);
