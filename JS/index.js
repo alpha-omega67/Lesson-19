@@ -51,3 +51,20 @@ const altuxi = users.every((el) => {
 });
 
 console.log(altuxi);
+
+const numbers3 = [10, 20, 30, 40, 50];
+
+const result3 = numbers3.reduce((sum, number) => {
+  return sum + number;
+}, 0);
+
+console.log(result3);
+
+const fruits = ["Яблоко", "Ананас", "Апельсин"];
+
+const result4 = fruits.reduce((acc, fruit, index) => {
+  acc[index] = fruit;
+  return acc;
+}, {});
+
+console.log(result4);
